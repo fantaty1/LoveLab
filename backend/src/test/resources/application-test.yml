@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:lovelab-test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+server:
+  servlet:
+    session:
+      cookie:
+        secure: false
+lovelab:
+  seed-enabled: true
+  bootstrap:
+    username: ""
+    password: ""

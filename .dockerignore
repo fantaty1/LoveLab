@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/target
+**/.m2
+**/data
+**/logs
+**/screenshots
+**/assets/source
+**/*.log
+.git
+.idea
+deploy/.env

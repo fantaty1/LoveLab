@@ -1,0 +1,14 @@
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+backend/target/
+backend/.m2/
+backend/data/
+backend/logs/
+deploy/.env
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+*.iml

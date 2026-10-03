@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.md whitespace=-blank-at-eol
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
